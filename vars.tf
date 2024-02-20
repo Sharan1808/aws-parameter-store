@@ -11,5 +11,6 @@ variable "parameters" {
     ##passwords
     { name = "dev.rds.password", type = "SecureString", value = "ExpenseApp1234" },
     { name = "sonar.token", type = "SecureString", value = "squ_2b5822337c5a683ab4164328e0c5fb78696e09d5" },
+    { name = "artifactory.password", type = "SecureString", value = "Admin123" },
   ]
 }
